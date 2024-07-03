@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODOLIST</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <main>
+        <div class="wrap">
+            <section class="heading">
+                <p class="title">TODO</p>
+                <p class="sub-title">TODOLIST for everyone</p>
+            </section>
+            <section class="task-manager">
+                <div class="search-box">
+                    <form class="search">
+                        <input type="text" name="task" placeholder="search-task" autocomplete="off">
+                        <i class="bi bi-x-circle reset"></i>
+                    </form>
+                </div>
+                <div class="task-box">
+                    <ul class="tasks">
+                        <li>
+                            <span>task1</span>
+                            <i class="bi bi-trash"></i>
+                        </li>
+                        <li>
+                            <span>task2</span>
+                            <i class="bi bi-trash"></i>
+                        </li>
+                        <li>
+                            <span>task3</span>
+                            <i class="bi bi-trash"></i>
+                        </li>
+                    </ul>
+                    <form class="add">
+                        <input type="text" name="task" placeholder="add-task" autocomplete="off">
+                        <input type="submit" value="add">
+                    </form>
+    
+                </div>
+                <div class="message">
+                    <P></P>
+                    <span>YOU HAVE 3 PENDING TASK</span>
+                    <button class="clear">clear all</button>
+                </div>
+            </section>
+        </div>
+    </main>
+    
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
